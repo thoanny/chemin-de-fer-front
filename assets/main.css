@@ -1,7 +1,30 @@
 @import url("modern-normalize/modern-normalize.css");
 @import url("primevue/resources/themes/aura-light-blue/theme.css");
 @import url("primeicons/primeicons.css");
+@import url("primeflex/primeflex.css");
 
 html {
   font-size: 14px;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  font-weight: 600;
+}
+
+header ul li a {
+  color: var(--text-color);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+header ul li a.router-link-active {
+  color: var(--primary-color);
+}
+
+.p-speeddial-action {
+  text-decoration: none !important;
 }
