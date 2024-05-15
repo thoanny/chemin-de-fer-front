@@ -1,0 +1,6 @@
+@import url("primevue/resources/themes/aura-light-blue/theme.css");
+@import url("primeicons/primeicons.css");
+
+html {
+  font-size: 14px;
+}
